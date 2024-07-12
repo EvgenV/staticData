@@ -179,6 +179,17 @@
         "color-2": {
           "value": "#ffffff"
         },
+        "switcher": {
+          "success": {
+            "value": "#8aef3c"
+          },
+          "disabled": {
+            "value": "rgba(120, 120, 128, 0.1600)"
+          },
+          "dot": {
+            "value": "#ffffff"
+          }
+        },
         "navigation-list-item": {
           "primary": {
             "value": "#181816"
@@ -196,18 +207,7 @@
             "value": "#242422"
           },
           "tag-defult": {
-            "value": "#181816"
-          }
-        },
-        "switcher": {
-          "success": {
-            "value": "#8aef3c"
-          },
-          "disabled": {
-            "value": "rgba(120, 120, 128, 0.1600)"
-          },
-          "dot": {
-            "value": "#ffffff"
+            "value": "#131311"
           }
         }
       },
@@ -403,6 +403,9 @@
         },
         "100replaceable-fill": {
           "value": "rgba(0, 0, 0, 0.0000)"
+        },
+        "110replaceable-fill": {
+          "value": "rgba(0, 0, 0, 0.0000)"
         }
       },
       "💦-background": {
@@ -444,17 +447,6 @@
         }
       },
       "🖼-visual": {
-        "placeholder": {
-          "left-color": {
-            "value": "#060604"
-          },
-          "centre-color": {
-            "value": "#0b0b09"
-          },
-          "right-color": {
-            "value": "#060604"
-          }
-        },
         "icon": {
           "fill": {
             "success": {
@@ -510,6 +502,17 @@
             "emergency": {
               "value": "#241b0d"
             }
+          }
+        },
+        "placeholder": {
+          "left-color": {
+            "value": "#060604"
+          },
+          "centre-color": {
+            "value": "#0b0b09"
+          },
+          "right-color": {
+            "value": "#060604"
           }
         }
       },
@@ -776,6 +779,17 @@
         "color-2": {
           "value": "#fdfdfd"
         },
+        "switcher": {
+          "success": {
+            "value": "#38c738"
+          },
+          "disabled": {
+            "value": "rgba(120, 120, 128, 0.3200)"
+          },
+          "dot": {
+            "value": "#ffffff"
+          }
+        },
         "navigation-list-item": {
           "primary": {
             "value": "#ffffff"
@@ -794,17 +808,6 @@
           },
           "tag-defult": {
             "value": "#f7f7f7"
-          }
-        },
-        "switcher": {
-          "success": {
-            "value": "#38c738"
-          },
-          "disabled": {
-            "value": "rgba(120, 120, 128, 0.3200)"
-          },
-          "dot": {
-            "value": "#ffffff"
           }
         }
       },
@@ -1000,6 +1003,9 @@
         },
         "100replaceable-fill": {
           "value": "#ffffff"
+        },
+        "110replaceable-fill": {
+          "value": "#f7f7f7"
         }
       },
       "💦-background": {
@@ -1041,17 +1047,6 @@
         }
       },
       "🖼-visual": {
-        "placeholder": {
-          "left-color": {
-            "value": "#f0f0f1"
-          },
-          "centre-color": {
-            "value": "#e4e4e5"
-          },
-          "right-color": {
-            "value": "#f0f0f1"
-          }
-        },
         "icon": {
           "fill": {
             "success": {
@@ -1107,6 +1102,17 @@
             "emergency": {
               "value": "#fce4e3"
             }
+          }
+        },
+        "placeholder": {
+          "left-color": {
+            "value": "#f0f0f1"
+          },
+          "centre-color": {
+            "value": "#e4e4e5"
+          },
+          "right-color": {
+            "value": "#f0f0f1"
           }
         }
       },
@@ -1245,8 +1251,21 @@
     }
   },
   "variable-collection": {
-    "dark-green": {
-      "value": "#191c1a"
+    "mode-1": {
+      "main-control": {
+        "value": "#ffffff"
+      },
+      "default": {
+        "value": "#1c25f9"
+      }
+    },
+    "mode-2": {
+      "main-control": {
+        "value": "#191c1a"
+      },
+      "default": {
+        "value": "#ffffff"
+      }
     }
   }
 }
