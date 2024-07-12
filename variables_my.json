@@ -1059,7 +1059,7 @@
               "value": "#d8eccd"
             },
             "done-secondary": {
-              "value": "#37c737"
+              "value": "rgba(138, 239, 59, 0.1000)"
             },
             "empty": {
               "value": "#efefef"
@@ -1071,7 +1071,7 @@
               "value": "#ff382e"
             },
             "error-secondary": {
-              "value": "#ffffff"
+              "value": "rgba(255, 56, 46, 0.1000)"
             },
             "warning": {
               "value": "rgba(245, 190, 8, 0.1000)"
