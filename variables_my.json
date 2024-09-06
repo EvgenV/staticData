@@ -447,6 +447,17 @@
         }
       },
       "🖼-visual": {
+        "placeholder": {
+          "left-color": {
+            "value": "#060604"
+          },
+          "centre-color": {
+            "value": "#0b0b09"
+          },
+          "right-color": {
+            "value": "#060604"
+          }
+        },
         "icon": {
           "fill": {
             "success": {
@@ -501,18 +512,10 @@
             },
             "emergency": {
               "value": "#241b0d"
+            },
+            "progress-line": {
+              "value": "rgba(255, 255, 255, 0.3800)"
             }
-          }
-        },
-        "placeholder": {
-          "left-color": {
-            "value": "#060604"
-          },
-          "centre-color": {
-            "value": "#0b0b09"
-          },
-          "right-color": {
-            "value": "#060604"
           }
         }
       },
@@ -1047,6 +1050,17 @@
         }
       },
       "🖼-visual": {
+        "placeholder": {
+          "left-color": {
+            "value": "#f0f0f1"
+          },
+          "centre-color": {
+            "value": "#e4e4e5"
+          },
+          "right-color": {
+            "value": "#f0f0f1"
+          }
+        },
         "icon": {
           "fill": {
             "success": {
@@ -1101,18 +1115,10 @@
             },
             "emergency": {
               "value": "#fce4e3"
+            },
+            "progress-line": {
+              "value": "#d8d8d8"
             }
-          }
-        },
-        "placeholder": {
-          "left-color": {
-            "value": "#f0f0f1"
-          },
-          "centre-color": {
-            "value": "#e4e4e5"
-          },
-          "right-color": {
-            "value": "#f0f0f1"
           }
         }
       },
