@@ -1,8 +1,49 @@
 <html>
-  <header>
-    
-  </header>
+  <head>
+    <script type='text/javascript' src='https://www.gstatic.com/charts/loader.js'></script>
+    <meta http-equiv='refresh' content='61'/>
+    <title>Daily temperature</title>
+    <script type='text/javascript'>
+      google.charts.load('current', {'packages':['corechart']});
+      google.charts.setOnLoadCallback(drawChart);
+
+      function drawChart() {
+        var data = new google.visualization.DataTable();
+      data.addColumn('datetime', 'Time');
+      data.addColumn('number', 'Temp, C');
+      data.addColumn('number', 'Humidity, %');
+      data.addColumn('number', 'Preasure, kPa');
+      data.addRows([[new Date(1728324104*1000), 22, 55, 979.71912]]);
+        
+        var options = {width: '100%',
+          title: 'GEEKMATIC.IN.UA',
+          curveType: 'function',
+          legend: { position: 'bottom' },
+          vAxes: {
+            0: {title: 'C', textPosition: 'out'},
+            1: {title: '% rel', textPosition: 'in'},
+            2: {title: 'kPa', textPosition: 'out'}
+        },
+        series:{
+            0: {targetAxisIndex:0},
+            1: {targetAxisIndex:1},
+            2: {targetAxisIndex:2}
+        },
+          hAxis: {format: 'dd.MM.yyyy HH:mm',
+            gridlines: {
+                count: 10,
+            },
+          }
+        };
+
+        var chart = new google.visualization.LineChart(document.getElementById('curve_chart'));
+        var formatter = new google.visualization.DateFormat({pattern: 'dd.MM.yyyy HH:mm'});
+        formatter.format(data, 0);
+        chart.draw(data, options);
+      }
+    </script>
+  </head>
   <body>
-    <p>asdasd</p>
+    <div id='curve_chart' style='width: 100%; height: 600px'></div>
   </body>
 </html>
